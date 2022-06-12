@@ -2,7 +2,7 @@
   <section id="hero" class="d-flex flex-column justify-content-center">
     <div class="container" data-aos="zoom-in" data-aos-delay="100">
       <h1>Toni Tegar Sahidi</h1>
-      <p>I'm <span class="typed" data-typed-items="Software Engineer, Backend Developer, Cloud Practicioner, Security Enthusiast"></span></p>
+      <p>I'm <span class="typed" data-typed-items="Software Engineer, Backend Developer, Humble man "></span></p>
       <div class="social-links">
         {{-- <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a> --}}
         <a href="https://www.facebook.com/tonitegarsahidi/" class="facebook"><i class="bx bxl-facebook"></i></a>
