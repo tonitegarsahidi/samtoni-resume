@@ -4,7 +4,7 @@
 
       <div class="section-title">
         <h2>Skills</h2>
-        <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+        <p>I am a fast learner. These skill below is only based on my previous working experience. Not my knowledge. In my spare times, I learn and code for fun in some language and platform like GoLang and NodeJS. I don't put them as skill since they are not proven yet.</p>
       </div>
 
       <div class="row skills-content">
