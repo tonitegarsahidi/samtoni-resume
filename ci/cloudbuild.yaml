@@ -6,6 +6,21 @@ steps:
 steps:
 - name: 'gcr.io/google.com/cloudsdktool/cloud-sdk'
   entrypoint: 'bash'
-  args: ['-c', 'composer install && gcloud config set app/cloud_build_timeout 3600 && gcloud app deploy -q --promote -v=$BUILD_ID --project=$PROJECT_ID']
+  args: ['-c', 'wget https://raw.githubusercontent.com/composer/getcomposer.org/76a7060ccb93902cd7576b67264ad91c8a2700e2/web/installer -O - -q | php -- --quiet']
+
+steps:
+- name: 'gcr.io/google.com/cloudsdktool/cloud-sdk'
+  entrypoint: 'bash'
+  args: ['-c', 'sudo mv composer.phar /usr/local/bin/composer']
+
+steps:
+- name: 'gcr.io/google.com/cloudsdktool/cloud-sdk'
+  entrypoint: 'bash'
+  args: ['-c', 'composer install']
+
+steps:
+- name: 'gcr.io/google.com/cloudsdktool/cloud-sdk'
+  entrypoint: 'bash'
+  args: ['-c', 'gcloud config set app/cloud_build_timeout 3600 && gcloud app deploy -q --promote -v=$BUILD_ID --project=$PROJECT_ID']
 
 timeout: '3600s'
