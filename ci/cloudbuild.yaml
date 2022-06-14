@@ -26,6 +26,6 @@ steps:
 steps:
 - name: 'gcr.io/google.com/cloudsdktool/cloud-sdk'
   entrypoint: 'bash'
-  args: ['-c', 'gcloud app deploy -q --promote -v=$BUILD_ID --project=$PROJECT_ID']
+  args: ['-c', 'gcloud app deploy -q --promote --project=$PROJECT_ID']
 
 timeout: '3600s'
