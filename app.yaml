@@ -24,7 +24,7 @@ env_variables:
     # Put production environment variables here.
     APP_ENV: production
     APP_NAME: "SamToni Profile"
-    APP_KEY: base64:kaynfltmFM5KADih1At/dXJIWQBhZ6jTdlOMoThI9cc=
+    APP_KEY: base64:nxPZ4dHF3149g4MULDVukOaXyw3FDlNyt3IJ7ucoVcQ=
     APP_DEBUG: true
     APP_URL: http://localhost
 
